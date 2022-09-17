@@ -89,7 +89,7 @@ const checkAnswer3 = () => {
 const checkAnswer4 = () => {
     let answer = $("#answer").val()
 
-    if (parseInt(answer) === parseFloat(eval(r4.text()))) {
+    if (parseInt(answer) === eval(r4.text())) {
         rightAnswer()
 
         setTimeout(() => {
@@ -143,7 +143,7 @@ const checkAnswer6 = () => {
 const checkAnswer7 = () => {
     let answer = $("#answer").val()
 
-    if (parseFloat(answer) === eval(r7.text()).toFixed(2)) {
+    if (parseFloat(answer) === parseFloat(eval(r7.text()).toFixed(2))) {
         rightAnswer()
 
         setTimeout(() => {
@@ -161,7 +161,7 @@ const checkAnswer7 = () => {
 const checkAnswer8 = () => {
     let answer = $("#answer").val()
 
-    if (parseFloat(answer) === eval(r8.text()).toFixed(2)) {
+    if (parseFloat(answer) === parseFloat(eval(r8.text()).toFixed(2))) {
         rightAnswer()
 
         setTimeout(() => {
@@ -179,7 +179,7 @@ const checkAnswer8 = () => {
 const checkAnswer9 = () => {
     let answer = $("#answer").val()
 
-    if (parseFloat(answer) === eval(r9.text()).toFixed(2)) {
+    if (parseFloat(answer) === parseFloat(eval(r9.text()).toFixed(2))) {
         rightAnswer()
 
         setTimeout(() => {
